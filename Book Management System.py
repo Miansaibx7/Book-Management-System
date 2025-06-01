@@ -7,6 +7,7 @@ from datetime import datetime
 # year: Year of publication (int)
 # price: Price of the book (float)
 
+# Define a decorator for discount 
 def discount_decorator(percent):
     def decorator(func):
         def wrapper(self, *args, **kwargs):
@@ -26,7 +27,7 @@ class Library:
         self.price = price
         self.created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # Book discount method but we use a decorators
+    # Book discount method but we use a decorator
     @discount_decorator(10)
     def apply_discount(self):
        print(f"New price after discount: {self.price}")
@@ -47,7 +48,7 @@ class Library:
            "Created_at": self.created_at,
         }
     
-# Create a class for stor new book 
+# Create a class for store new book 
 class StoreBook:
     def __init__(self):  # for that intial create a empty List
         self.books = []
