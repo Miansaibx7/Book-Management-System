@@ -1,0 +1,20 @@
+[
+    {
+        "Title": "Python 101",
+        "Author": "Ali Khan",
+        "Isbn": "12345",
+        "Publisher": "TechPress",
+        "Year": 2023,
+        "Price": 1350.0,
+        "Created_at": "2025-06-01 20:25:12"
+    },
+    {
+        "Title": "The Secrets of Quantum Code",
+        "Author": "Dr. Evelyn Hart",
+        "Isbn": 9781234567890,
+        "Publisher": "NovaTech Press",
+        "Year": 2021,
+        "Price": 3600.0,
+        "Created_at": "2025-06-01 20:25:12"
+    }
+]
